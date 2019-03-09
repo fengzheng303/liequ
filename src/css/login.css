@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.swiper-slide{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-between;
+}
+.s1{
+    background:deepskyblue
+}
+.s2{
+    /* background:darkcyan */
+}
+.lf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.s{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:12px
+}
+.s11{
+font-family: 'Gill Sans';
+font-size:60px;
+color:red 
+}
+button{
+    width: 80%;
+    height: 40px;
+    background: #f00;
+    border:none;
+    margin:0 auto
+}
+.deng{
+    height: 150px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+    
+}
+.deng>div:nth-child(1){
+    height: 30px;
+    width: 90%;
+ 
+    display: flex;
+    justify-content:space-around;
+    align-items: center
+}
+.deng>div:nth-child(1) p{
+    width: 30%;
+    height: 2px;
+    background: rgb(107, 97, 97);
+}
+.de{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center
+}
+.de div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.biao{
+    height: 100px;
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.biao>div{
+    height: 50px;
+    
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    border-bottom:1px solid #000;
+}
+.biao>div span{
+    display: block;
+    height: 50px;
+    width: 20%;
+    text-align: center;
+    line-height: 50px;
+}
+.biao>div input{
+    float: left;
+    border:none;
+    height: 48px;
+    width: 60%;
+}

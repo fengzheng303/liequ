@@ -1,0 +1,25 @@
+.foot{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background:rgba(245,0,0,.4)
+}
+.ft{
+    flex:1;
+    overflow:hidden;
+}
+footer{
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    background: deepskyblue;
+    justify-content: space-around;
+    align-items: center
+}
+footer a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}

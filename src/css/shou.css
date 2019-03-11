@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: flex-start
 }
-header{
+.header{
    height: 50px;
    background:deepskyblue;
    display:flex;

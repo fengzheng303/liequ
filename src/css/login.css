@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.swiper-slide{
+.s1,.s2{
     height: 100vh;
     width: 100vw;
     display: flex;

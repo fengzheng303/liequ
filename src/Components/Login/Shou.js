@@ -34,14 +34,26 @@ class Shou extends React.Component{
          }
     }
         ti(){
-           console.log(this.state.username)
+           console.log('12')
 var _this=this;
+var obj={
+    'uname':this.state.username,
+    'upassword':this.state.password
+   }
 $.ajax({
-    url:'http://jx.xuzhixiang.top/ap/api/reg.php',
-    params:{username:_this.state.username,password:_this.state.password},
+    type:"get",
+    url:'http://39.105.231.18/liequ/ruseregist',
+    data:obj,
     dataType:'json',
     success:function(data){
-        console.log(data.data)
+        console.log(data)   
+        if(data.code==1){
+            var ob=JSON.stringify(obj)
+            localStorage.setItem('uid',ob)
+            _this.props.history.push('/index')
+        }else{
+            alert('注册失败')
+        }
    
     }
 })

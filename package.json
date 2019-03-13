@@ -8,10 +8,14 @@
     "jquery": "^3.3.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-loading": "^2.0.3",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8",
-    "reactjs-iscroll": "^0.3.2"
+    "react-transition-group": "^2.6.0",
+    "reactjs-iscroll": "^0.3.2",
+    "redux": "^4.0.1",
+    "swiper": "^4.5.0"
   },
   "scripts": {
     "start": "react-scripts start",

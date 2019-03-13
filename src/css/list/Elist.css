@@ -1,0 +1,190 @@
+.elist{
+    height: 100vh;
+    width: 100vw;
+  
+    display: flex;
+    flex-direction: column;
+}
+.eh{
+    height: 100px;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+}
+.eht{
+    height: 50px;
+    width: 100vw;
+    background:darkgoldenrod;
+display: flex;
+justify-content: space-between;
+align-items: center
+}
+.eht div{
+    display: flex;
+    width: 70%;
+    height: 30px;
+}
+.eht div i{
+    display: block;
+    width: 10%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #fff;
+}
+.eht div input{
+    width: 90%;
+    height: 30px;
+    background: #fff;
+}
+.ehb{
+    height: 50px;
+    width: 100vw;
+    background:darkgoldenrod;
+display: flex;
+justify-content: space-around;
+align-items: center
+}
+.erlist{
+    display: flex;
+    flex:1;
+    width: 100vw;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   justify-content: space-around;
+overflow:auto;
+
+}
+.erlist div{
+    width: 150px;
+    height: 200px;
+    background:#0f0;
+    margin:10px 0;
+}
+.erlist a{
+    display: block;
+    width: 100%;
+    height: 200px;
+    
+
+}
+.erlist a img{
+    width: 150px;
+    height:150px;
+
+}
+.shai{
+    display:none;
+    height:50vh;
+    width: 100vw;
+    background:#f00;
+    position:absolute;
+    left:0;top:100px;
+    z-index:100
+}
+ .shi{
+    display:none;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background:#0f0
+}
+.shi h2{
+    
+    line-height: 30px;
+    font-weight: normal
+}  
+.shi div{
+
+   background: #00f;
+display: flex;
+align-items: center;
+}  
+.shi div span{
+    width: 100px;
+ border-radius:10px;
+    text-align: center;
+    line-height: 30px;
+    margin:0 20px;
+}
+.shi div span:hover{
+    background: #f00;
+}
+.jia{
+    display: flex;
+    flex-direction: column;
+    background:#cececc;
+}
+.jia h2{
+   padding:5px;
+}
+.jia div{
+    width: 100vw;
+    background: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center
+}
+.jia div span{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border:1px solid #000;
+    margin:5px 0;
+}
+.jia div input{
+    height: 40px;
+    width: 100px;
+    padding:5px 0
+}
+
+.pai,.qi,.qy{
+    display:none;
+    height:50vh;
+    width:100vw;
+    background:rgba(123,0,123,0.5);
+    position:absolute;
+    top:100px;
+    left:0;
+
+}
+.qyl{
+   width: 100%;
+    height:100%;
+    overflow:auto;
+    background:rgba(23,0,255,.5);
+    float: left;
+    display: flex;
+    flex-direction: column;
+
+}
+.qyl div{
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+}
+.qyl div:hover{
+    background: #f00;
+}
+
+.qyr{
+    display:none;
+    width: 50%;
+    height:100%;
+    overflow:auto;
+    background:rgba(255,0,0,.5);
+    float: left;
+
+}
+.pai div{
+    width: 100vw;
+    height: 50px;
+    border-bottom:1px solid #000;
+    line-height: 50px;
+}
+.pai div:hover{
+    background: #fff;
+}

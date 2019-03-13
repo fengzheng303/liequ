@@ -1,0 +1,122 @@
+.she{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    background:rgba(245,0,0,.4)
+
+
+}
+
+
+
+.sh{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #000
+}
+.ss{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    overflow:auto;
+    background: green
+
+}
+.sz{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+.sz h2{
+    height: 50px;
+    border-bottom:1px solid  #ccc;
+    line-height:50px;
+}
+.sz .sg{
+    height: 30px;
+    line-height: 30px;
+}
+.sz .sg img{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+}
+.sz a{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 0;
+    width: 100%;
+
+    background:deepskyblue;
+    border-bottom:1px solid #cecece
+}
+.sz a div{
+    display: flex;
+    align-items: center
+}
+.sz >div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 0;
+    width: 100%;
+
+    background:deepskyblue;
+    border-bottom:1px solid #cecece
+}
+.sz >div span{
+    float: left;
+}
+.sz >div .tu{
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    line-height: 30px;
+}
+.sm{
+    height: 50px;
+    width: 100vw;
+    background:rgba(255,0,0,.5);
+}
+.sm span{
+    float: left;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+.sm input{
+    width: 70%;
+    height: 50px;
+}
+.xb{
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+position:absolute;
+top:100vh;
+left:0;
+background: #fff;
+}
+.xb input{
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+line-height: 50px;
+    border-bottom:1px solid #000
+    
+}
+.xb div{
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+line-height: 50px;
+    border-bottom:1px solid #000
+    
+}

@@ -1,0 +1,20 @@
+.tx{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+.txb{
+    height: 40px;
+    border-bottom:2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tx a{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #000;
+}

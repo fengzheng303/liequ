@@ -46,3 +46,6 @@ section{
 p a{
     color:red
 }
+footer{
+    display: none;
+}

@@ -1,0 +1,144 @@
+ .wo{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  
+}
+.wo a{
+    color:#000
+}
+.wh{
+ height: 200px;
+ width: 100vw;
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.wht{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.wht a{
+    display: block;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background:red
+}
+.whc{
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.whc a{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    text-align: center;
+    line-height:50px ;
+
+}
+.whb{
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.whb a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#000;
+}
+.whb a:hover{
+    color:red
+}
+.ws{
+    flex:1;
+    overflow:auto;
+}
+.fg{
+    height: 5px;
+    width: 100vw;
+    background: #ccc;
+ 
+}
+.wd{
+    height: 100px;
+    width: 100vw;
+ 
+    display: flex;
+    flex-direction: column;
+
+}
+.wd h2{
+    height: 20px;
+    line-height: 30px;
+    font-weight: normal;
+}
+.wd >div{
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wd >div a{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.wl{
+ display: flex;
+ flex-direction: column;
+}
+.wl a{
+    height: 40px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.wl a >i{
+    display: block;
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.wl a>div{
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #000
+}
+.wl a>div div {
+    display:flex;}
+.wl a>div div i{
+    display:block;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+} 

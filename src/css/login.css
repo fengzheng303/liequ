@@ -13,9 +13,7 @@
 .s1{
     background:deepskyblue
 }
-.s2{
-    /* background:darkcyan */
-}
+
 .lf{
     display: flex;
     flex-direction: column;
@@ -109,3 +107,4 @@ button{
     height: 48px;
     width: 60%;
 }
+

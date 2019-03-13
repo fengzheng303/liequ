@@ -1,52 +1,47 @@
 import React from 'react';
-import Index from './Index';
+import $ from 'jquery';
+import { NavLink } from 'react-router-dom';
 
-import Wo from './Wo';
 import '../../css/footer.css'
+class Footer extends React.Component{
+den(){
+ }
+   fen(){
+   
+       var _this=this;
+    var obj=JSON.parse( localStorage.getItem('uid'))
+       console.log(obj)
+   }
 
 
-import {
-    BrowserRouter as Router,
-    Route,
-    
-    NavLink,
-    Redirect,
-    Switch
-} from 'react-router-dom';
-import '../../css/footer.css';
-class Footer extends React.Component {
-    constructor(props) {
-        super(props)
+ 
 
-    }
-    render() {
-        return ( <div  >
-                   
-                <Router >
-                    <div className="foot">
-                        <div className='ft'>
-                        <Switch>
-                            <Route path="/index" component={Index}></Route>
-                            <Route path="/wo" component={Wo}></Route>
 
-                            <Redirect to="/index"/>
-                        </Switch>
-                        </div>
-                        <footer>
-                        <NavLink to='/index'>
-                            <i>1</i>
-                            <span>首页</span>
-                        </NavLink> 
-                        <NavLink to='/wo'>
-                            <i>1</i>
-                            <span>我的</span>
-                        </NavLink>          
-                        </footer>
-                    </div>
-                </Router>
-            </div>
-
+    render(){
+        return(
+            <div  className='foot' >
+             
+             <NavLink  to='/index'>
+                <i>1</i>
+                <span>首页</span>
+             </NavLink>
+             <NavLink to="/list">
+                   <i>1</i>
+                     <span>分类</span>
+             </NavLink>
            
+        
+             <NavLink to='/wo'>
+                <i>1</i>
+                <span>我的</span>
+             </NavLink>
+             <NavLink to='/login'>
+                <i>1</i>
+                <span>login</span>
+             </NavLink>
+           
+           
+            </div>
         )
     }
 

@@ -1,0 +1,63 @@
+.cart{
+	height: 100vh;
+	width:100vw;
+	display: flex;
+	flex-direction: column;
+}
+.cart1{
+	height:500px;
+	
+	flex: 1;
+	overflow: auto;	
+}
+.xuan{
+	height: 50px;
+	background: red;
+	position: fixed;
+	width: 100vh;
+	bottom: 0;
+}
+.xuan div{
+	margin-top: 12px;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+.zong{
+	width: 150px;
+	margin-left: 30px;
+}
+.fukuan a button{
+	width: 150px;
+	display: block;
+	margin-top: -3px;
+	margin-right: 242px;
+}
+.cart1 .dange{
+	width: 100vw;
+	height: 100px;
+	float: left;
+	margin-top: 5px;
+}
+.cart1 img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.cart1 .dx{
+	width: 20px;
+	float: left;
+	height: 100px;
+} 
+.cart .dange p{
+	display: block;
+	width: 380px;
+	height:20px
+}
+.cart .dange h3{
+	display: inline;
+}
+.ant-input-number{
+	margin-left: 0;
+}

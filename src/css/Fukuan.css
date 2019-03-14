@@ -1,0 +1,53 @@
+.fukuan{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+height: 94vh;
+}
+.fukuan1{
+	flex: 1;
+	overflow: auto;
+	height:500px;
+	width: 100vw;
+}
+.fukuan2{
+	height: 45px;
+	width: 100vw;
+		display: flex;
+	
+}
+
+.fukuan1 .dingdan{
+	width: 100vw;
+	height: 100px;
+	float: left;
+	margin-top: 5px;
+}
+.fukuan1 img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.fukuan1 .dx{
+	width: 20px;
+	float: left;
+	height: 100px;
+} 
+.fukuan1 .dingdan p{
+	display: inline;
+	width: 380px;
+	height:20px
+}
+.fukuan1 .dingdan h3{
+	display: inline;
+}
+.ant-input-number{
+	margin-left: 0;
+}
+.fukuan2 .jiesuan1{
+	margin-left: 40px;
+}
+.fukuan2 a{
+	width: 100px;
+	display: block;
+}

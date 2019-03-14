@@ -1,0 +1,116 @@
+.detail{
+	
+	display: flex;
+	flex-direction: column;
+}
+.detail img{
+	width: 100vw;
+	height: 350px;
+}
+.detail1{
+	width: 100vw;
+	height: 569px;
+	flex: 1;
+	overflow: auto;
+}
+.jiage{
+	float: left;
+	width: 100vw;
+	height: 197px;
+		background: #fff;
+	
+}
+.jiage p{
+	color: red;
+	font-size:28px;
+display: inline;
+}
+.jiage i{
+	margin-left: 80px;
+	font-size: 28px;
+}
+.ms{
+	margin-top: 10px;
+	background: #fff;
+}
+.ms h3{
+	height: 130px;
+	width: 100vw;
+}
+.jiaru{
+	display: flex;
+	height: 44px;
+	justify-content: center;
+	align-items: center;
+}
+.jiaru div,.jiaru div a{
+	width: 92px;
+	height: 44px;
+	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.jiaru button{
+	height:44px
+}
+.numb{
+	width: 100vw;
+	height: 400px;
+	background: #fff;
+	display: none;
+	position: absolute;
+	bottom: 0;
+	
+	z-index: 1000;
+}
+.numb img{
+	height: 82px;
+	width: 133px;
+}
+.numb p{
+	margin-top: 59px;
+	color: indianred;
+	font-size: 23px;
+}
+.numb .btn{
+	margin-right: 80px;
+	
+}
+.numb .btn1{
+	margin-top: 0;
+	width: 24px;
+	height: 24px;
+	border-radius:50%;
+	background:#fff ;
+	position: fixed;
+	top: 267px;
+	right: 0;
+}
+.ant-input-number{
+	margin-left: 225px;
+}
+.numb .btn2{
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: orangered;
+}
+.red{
+	color: red;
+}
+
+.ant-comment{
+	width:100vw;
+	float: left;
+	margin-left: -12px;
+}
+.ant-comment .ant-btn-primary{
+	margin-top: 50px;
+}
+.ant-form-item{
+	width: 100vw;
+	height:20px;
+}

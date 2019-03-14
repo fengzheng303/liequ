@@ -1,0 +1,70 @@
+
+
+
+section .nav p{
+	width: 187px;
+	float: left;
+	line-height: 45px;
+	text-align: center;
+	background: #fff;
+}
+li{
+	list-style: none;
+}
+
+.App section .home .nav{
+	height: 45px;
+	border-bottom: 1px solid red;
+	
+	width: 100vw;
+}
+
+ .App section .home .list1{
+flex: 1;
+overflow: auto;
+
+
+}
+.App section .home .foot{
+	height: 45px;
+	width: 100vw;
+
+}
+.list1 div{
+	height: 260px;
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+.pic{
+	width: 180px;
+	height:180px;
+	display: block;
+}
+a{
+text-decoration: none;
+color: #000000;
+}
+.App section div .home{
+	display: flex;
+	flex-direction: column;
+	height: 100vh
+}
+.foot{
+	height: 45px;
+	background: orange;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+}
+.foot{
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0px;
+}
+.foot div a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

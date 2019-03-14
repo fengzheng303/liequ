@@ -1,0 +1,15 @@
+.fabu{
+	width: 100vw;
+	height: 800px;
+}
+.list8,.list8 div{
+	width: 100vw;
+	height: 800px;
+}
+.list8 div input{
+	
+	display: block;
+	width: 100vw;
+	height: 73px;
+	margin-top: 10px;
+}

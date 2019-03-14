@@ -1,0 +1,53 @@
+.App{
+	width: 100vw;
+	height: 100vh;
+	display:flex;
+	flex-direction: column
+}
+
+.App footer,.App header{
+	height: 45px;
+	background: orange;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+}
+.App footer{
+	justify-content: space-around;
+
+}
+footer div a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.ant-input-search{
+	height: 30px;
+	margin-top: 5px;
+	left: 5px;
+}
+header .iconfont{
+	display: block;
+	
+	margin-left:20px;
+	line-height: 45px;
+
+	font-size: 28px;
+}
+section{
+	flex: 1;
+	overflow: hidden;
+}
+*{
+	margin: 0;
+	padding:0;
+}
+.gouwuche{
+	position: fixed;
+	right: 0;
+	top: 10px;
+	
+}
+.gouwuche i{font-size: 23px;}
